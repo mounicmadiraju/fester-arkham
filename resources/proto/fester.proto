@@ -1,0 +1,8 @@
+option java_package = "fester";
+option java_outer_classname = "protobuf";
+
+message Metric {
+  required uint32 time  = 1;
+  required string key   = 2;
+  required double value = 3;
+};
